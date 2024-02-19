@@ -1,0 +1,17 @@
+header{
+    background-color: rgb(115, 116, 117);
+    padding-left: 20px;
+    margin-bottom: 10px;
+    height: 50px;
+}
+.btn{
+    width: 49%;
+    background-color: beige;
+    color: black;
+}
+.paid{
+    
+}
+.fees-due{
+    display: none;
+}

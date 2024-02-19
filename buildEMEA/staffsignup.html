@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="stylesheet" href="signup.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="col-md-12">
+      <div class="wrapper col-md-12">
+        <form action="staffhomepage.html" method="post" id="signupstudent" onsubmit="validite()">
+          <h1>Signup</h1>
+          
+          <div class="input-box">
+            <input name="name" type="text" placeholder="Name" >
+            <i class='bx bxs-user'></i>
+          
+          </div>
+          
+           <div class="input-box">
+            <input name="email" type="text" placeholder="Email">
+            <i class='bx bxs-user'></i>
+           
+          </div>
+       
+          <div class="input-box">
+            <input name="password"   type="password" placeholder="Password">
+            <i class='bx bxs-lock-alt' ></i>
+          </div>
+          <div class="input-box">
+            <input name="pass" type="password" placeholder="Confirm Password" >
+            <i class='bx bxs-lock-alt' ></i>
+           </div>
+         
+          <button type="submit" class="btn" onclick="document.location='studenthome.html'">sign up</button>
+          
+        </form>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+</body>
+</html>

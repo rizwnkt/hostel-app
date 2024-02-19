@@ -1,0 +1,313 @@
+body{
+
+}
+header{
+    background-color: rgb(249, 245, 241);
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.btnpr {
+    background-color: rgb(236, 230, 223);
+    border: none;
+    color: rgb(19, 15, 15);
+    padding: 14px 16px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .btnnt {
+    background-color: rgb(236, 230, 223);
+    color: rgb(19, 15, 15);
+    padding:14px 16px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 0%;
+    border-radius: 100%;
+    border: none;
+  }
+  .btnmenubar {
+    background-color: rgb(236, 230, 223);
+    color: rgb(19, 15, 15);
+    margin-left: 50px   ;
+    padding: 12px 16px;
+    font-size: 15px;
+    cursor: pointer;
+   
+    
+  }
+
+  
+ 
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+
+  
+
+  .btnfoodmenu{
+    background-color: rgb(236, 230, 223);
+    color: rgb(19, 15, 15);
+    padding: 12px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    float: left;
+    border-radius: 100%;
+    border: none;
+    margin-top: 0%;
+    cursor: pointer;}
+
+.btnmenuclose{
+    background-color: rgb(236, 230, 223);
+    color: rgb(19, 15, 15);
+    padding: 12px 16px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 0%;
+    border-radius: 100%;
+    border: none;
+    float: right;
+    height: 20px;
+   
+   
+  }
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-popup{
+ 
+  height: auto;
+  right: 15px;
+  background-color: white ;
+  padding-bottom: 4%;
+  padding-right: 20px;
+  z-index: 9;
+  overflow:auto;
+  float: left;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  margin-top: 4%;
+  display: none;
+
+}
+.menulistdiv{
+  height: auto;
+  width: 100%;
+  bottom: 0;
+  right: 15px;
+ float: left;
+  background-color: white ;
+  padding-bottom: 2px;
+  padding-right: 20px;
+  bottom: 0;
+  right: 15px;
+  z-index: 9;
+overflow:auto;
+margin-top: 25px;
+}
+.fditems{
+  width: 80px;
+  border-radius: 100%;
+  padding-left: 8px;
+}
+.button{
+  height: 50px;
+}
+.bt{
+  height: 60px;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: rgb(236, 230, 223);
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  color: rgb(19, 15, 15);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+} 
+.fitems{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+.btnmenubar:hover {
+  background-color: rgb(206, 202, 198);
+}
+.btnpr:hover{
+  background-color:rgb(206, 202, 198);
+}
+.btnnt:hover{
+  background-color:rgb(206, 202, 198);
+}
+.btnmenuclose:hover{
+  background-color:rgb(206, 202, 198);
+}
+footer{
+  padding: auto;
+}
+.middlediv{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.fdmenudiv{
+
+  padding: 12px 0px;
+  width: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+ 
+  
+}
+
+footer{
+  padding-left: 20px;
+}
+  .cbt{
+    float: left;
+    width: 22%;
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+    height: 50px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    background-color:  rgb(236, 230, 223);
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    color: rgb(19, 15, 15);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: block;
+  }
+ .m-first{
+  align-items: center;
+  width: 100%;
+  font-size: small;
+  padding-left: 50px;
+  padding-right: 50px;  
+ }
+  .mfi{
+   size: 12%;
+  } 
+ .morning{
+  float: left;
+ }
+ .noon{
+  padding-left: 50px;
+  float: left;
+ }
+ .afternoon{
+  padding-left: 50px;
+  float: left;
+ }
+ .menulist-sun{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}
+.menulist-tue{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}
+.menulist-wed{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}
+.menulist-thu{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}
+.menulist-mon{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}
+.menulist-fri{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}
+.menulist-mon{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}
+.menulist-sat{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}

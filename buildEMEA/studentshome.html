@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Thome</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="shome.css">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+   <script src="studenthome.js"></script>
+      
+  </head>
+  <body>
+    
+<div class="col-md-12">
+        
+        <header>
+            <button class=" btnpr   btn-secondary btn-lg"><i class='fas fa-user-circle'></i>My profile</button>
+            <button class=" btnnt  btn-secondary btn-lg" id="nicon"><i class="fa fa-bell"></i></button>
+            <button class=" btnmenubar  btn-secondary btn-lg float-right "><i class="fa fa-bars"></i></button>
+        </header>
+
+
+
+  
+ 
+   </div>   
+  </div>
+
+        <div class="middlediv">
+          <div class="m-first text-center col-md-12">
+            <button type="button" id="messbtn" class="  cbt"  onclick="tick(1)"><i class='mfi pull-left fa-2x fas fa-utensils'></i>Mess</button>
+           <button type="button" id="entrybtn" class="  cbt" onclick="tick(2)" ><i class='mfi pull-left fa-2x fas fa-sign-out-alt' ></i>Entry</button>
+           <button type="button" id="cleanbtn" class="  cbt cl"  onclick="tick(3)"><i class="mfi pull-left fa-2x fa-solid fa-brush" ></i>Clean</button>
+          
+          </div>
+          <button type="button" class="bt btn-secondary btn-lg btn-block" onclick="document.location='fees.html'"><i class="pull-left fa-2x fas fa-credit-card" style="font-size:36px"></i>Fees</button>
+          <button type="button" class="bt btn-secondary btn-lg btn-block" onclick="document.location='requirments.html'"><i class='pull-left fa-2x fas fa-tools'></i>Requirments</button>
+          <button type="button" class="bt btn-secondary btn-lg btn-block" onclick="document.location='fdmenu.html'" ><i class='pull-left fa-2x fas fa-utensils'></i>Menu</button>
+
+        </div>
+        <footer>
+          <div class="menulistdiv col-md-12">
+             <button class="open-button btn-secondary btn-lg btnfoodmenu " onclick="menu()">Today's menu</button>
+              <div class="form-popup " id="myDiv"> 
+        
+               <div class=" menulist-sun" id="sun-menu">
+                     <div class="morning">
+                      <img src="upmav.jpg" class="fditems"><br>
+                      <li class="fitems">Uppumav</li>
+                      <li class="fitems">Banana</li>
+                      </div> 
+                      <div class="noon">
+                      <img src="oon.jpg"  class="fditems" ><br>
+                      <li class="fitems">Oonu</li>
+                      <li class="fitems">Curry</li>
+                      <li class="fitems">Thiyyal</li>
+                      <li class="fitems">Thoran</li>
+                      <li class="fitems">Pappadam</li>
+                      </div>
+                      <div class="afternoon">
+                      <img src="biscut.jpg" class="fditems" ><br>
+                      <li class="fitems">Biscut</li>
+                     </div>
+                     <div class="night">
+                      <img src="oon.jpg"class="fditems"><br>
+                      <li class="fitems">Oonu</li>
+                      <li class="fitems">Curry</li>
+                      <li class="fitems">Soyabean</li>
+                      <li class="fitems">Pappadam</li>
+                     </div>
+               </div>
+                <div class=" menulist-mon"  id="mon-menu">
+                    <div class="morning">
+                    <img src="poori.jpg" class="fditems"><br>
+                    <li class="fitems">Poori</li>
+                    <li class="fitems">Peas Curry</li>
+                    </div> 
+                    <div class="noon">
+                    <img src="oon.jpg"  class="fditems" ><br>
+                    <li class="fitems">Oonu</li>
+                    <li class="fitems">Moru Curry</li>
+                    <li class="fitems">(Ilavan)</li>
+                    <li class="fitems">Thoran</li>
+                    <li class="fitems">Pappadam</li>
+                    </div>
+                    <div class="afternoon">
+                    <img src="pazhampori.jpg" class="fditems"><br>
+                    <li class="fitems">Pazhampori</li>
+                    </div>
+                    <div class="night">
+                    <img src="chapathichicken"class="fditems" ><br>
+                    <li class="fitems">Chappathi &Chicken Curry</li>
+                   
+                    </div>
+                  </div>
+                  <div class=" menulist-tue" id="tue-menu">
+                     <div class="morning">
+                      <img src="dhosa.jpg" class="fditems"><br>
+                      <li class="fitems">Dhosa</li>
+                      <li class="fitems">Sampar</li>
+                      <li class="fitems">Chamanthi</li>
+                     </div> 
+                     <div class="noon">
+                      <img src="oon.jpg"  class="fditems"><br>
+                      <li class="fitems">Oonu</li>
+                      <li class="fitems">Sampaar</li>
+                      <li class="fitems">Thoran</li>
+                      <li class="fitems">Pappadam</li>
+                     </div>
+                     <div class="afternoon">
+                      <img src="cutlate.jpg" class="fditems" ><br>
+                      <li>Cutlet</li>
+                     </div>
+                     <div class="night">
+                      <img src="neychor.jpg"class="fditems"><br>
+                      <li class="fitems">Neychoru</li>
+                      <li class="fitems">Chicken Kadayi</li>
+                     </div>
+                    </div>
+                    <div class=" menulist-wed" id="wed-menu">
+                      <div class="morning">
+                        <img src="putt.jpg" class="fditems"><br>
+                        <li class="fitems">Putt</li>
+                        <li class="fitems">Curry</li>
+                      </div> 
+                      <div class="noon">
+                        <img src="oon.jpg"  class="fditems" ><br>
+                        <li class="fitems">Oonu</li>
+                        <li class="fitems">Aviyal</li>
+                        <li class="fitems">Parippucurry</li>
+                        <li class="fitems">(Vellari)</li>
+                        <li class="fitems">Pappadam</li>
+                      </div>
+                      <div class="afternoon">
+                        <img src="sandwitch.jpg" class="fditems"><br>
+                        <li class="fitems">Sandwitch</li>
+                      </div>
+                      <div class="night">
+                        <img src="chapathifish.jpg"class="fditems" ><br>
+                        <li class="fitems">Chappathi</li>
+                        <li class="fitems">Fish Curry</li>
+                      </div>
+                      </div>
+                      <div class=" menulist-thu" id="thu-menu">
+                        <div class="morning">
+                          <img src="breadwithcurry.jpg" class="fditems"><br>
+                          <li class="fitems">Bread</li>
+                          <li class="fitems">Egg Curry</li>
+                        </div> 
+                        <div class="noon">
+                          <img src="oon.jpg"  class="fditems"><br>
+                          <li class="fitems">Oonu</li>
+                          <li class="fitems">Erisheri</li>
+                          <li class="fitems">Moru</li>
+                          <li class="fitems">Pappadam</li>
+                        </div>
+                        <div class="afternoon">
+                          <img src="samoosa.jpg" class="fditems"><br>
+                          <li class="fitems">Samoosa</li>
+                        </div>
+                        <div class="night">
+                          <img src="chickenbiriyani.jpg"class="fditems" ><br>
+                          <li class="fitems">Chicken Biriyani</li>
+                        </div>
+                        </div>
+                        <div class=" menulist-fri" id="fri-menu">
+                          <div class="morning">
+                            <img src="vellappam.jpg" class="fditems"><br>
+                            <li class="fitems">Vellappam</li>
+                            <li class="fitems">Kadala Curry</li>
+                          </div> 
+                          <div class="noon">
+                            <img src="oon.jpg"  class="fditems"><br>
+                            <li class="fitems">Oonu</li>
+                            <li class="fitems">Sampaar</li>
+                            <li class="fitems">Thoran</li>
+                            <li class="fitems">Pappadam</li>
+                          </div>
+                          <div class="afternoon">
+                            <img src="ullivada.jpg" class="fditems"><br>
+                            <li class="fitems">Ullivada</li>
+                          </div>
+                          <div class="night">
+                            <img src="oon.jpg" class="fditems">
+                            <li class="fitems">Oonu</li>
+                            <li class="fitems">Resam</li>
+                            <li class="fitems">Eggroast</li>
+                          </div>
+                     </div>
+                          <div class=" menulist-sat" id="sat-menu">
+                            <div class="morning">
+                              <img src="dhosa.jpg" class="fditems"><br>
+                              <li class="fitems">Dhosa</li>
+                              <li class="fitems">Sampar</li>
+                              <li class="fitems">Chamanthi</li>
+                            </div>
+                            <div class="noon">
+                              <img src="oon.jpg"  class="fditems" ><br>
+                              <li class="fitems">Oonu</li>
+                              <li class="fitems">Parippu Curry</li>
+                              <li class="fitems">Thoran</li>
+                              <li class="fitems">Pappadam</li>
+                            </div>
+                            <div class="afternoon">
+                              <img src="breadfry.jpg" class="fditems" ><br>
+                              <li class="fitems">Bread Fry</li>
+                            </div>
+                            <div class="night">
+                              <img src="oon.jpg" class="fditems"  ><br>
+                              <li class="fitems">Oonu</li>
+                              <li class="fitems">Curry</li>
+                              <li class="fitems">Fish Fry</li>
+                            </div>
+                          </div>
+                          
+                        
+              </div>
+              
+              </div>
+          </div>
+        </footer>
+  </div>
+          
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

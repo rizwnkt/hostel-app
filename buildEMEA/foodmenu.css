@@ -1,0 +1,18 @@
+header{
+  background-color: rgb(115, 116, 117);
+  padding-left: 20px;
+  margin-bottom: 10px;
+  height: 50px;
+}
+.fditems{
+    width: 80px;
+    border-radius: 100%;
+    padding-left: 8px;
+  }.fitems{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  }
+  tr{
+    width: 200px;
+    height: 100px;
+  }
